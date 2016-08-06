@@ -31,17 +31,30 @@
 		<p>Whether you want to see more of my work or simply just want to say "hello", please fill out the form. I would love to hear from you!</p>
 	</div>
 
+<!--This doesn't completely work yet...need PHP or an outside script-->
 	<div class="col-sm-7">
-		<div class="title"> Name &#9875;</div>
-		<div class="form-group">
-			<input type="text" class="form-control" id="formFirstName">
-			<label class="caption">Full Name</label>
-		</div>
-		<div class="form-group"></div>
-			<input type="text" class="form-control" id="emailAddress">
-			<label class="caption">Email Address</label>
-		</div>
+		<form action="mailto:b-her@live.com" method="post" enctype="text/plain">
+			<div class="title"> Name &#9875;</div>
+				<div class="form-group">
+				<input type="text" class="form-control" id="formFirstName">
+				</div>
+			<div class="title"> Email Address &#9875;</div>
+				<div class="form-group" mailto="b-her@live.com">
+				<input type="email" class="form-control" id="formEmailAddress">
+				</div>
+			<div class="title"> Suject &#9875;</div>
+				<div class="form-group">
+				<input type="text" class="form-control" id="formSubject">
+				</div>
+			<div class="title">Message &#9875;</div>
+				<div class="form-group">
+				<input type="text" class="form-control" id="formMesage">
+				</div>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
 	</div>
+<!--Cannot send form to email yet.....-->
 
 	<div class="footer">
 		<div class="container">
