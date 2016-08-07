@@ -9,22 +9,27 @@
 		<meta name="keywords" content="marina, portfolio, software developer">
 		<meta name="author" content="Marina">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 
 	<body>
-	<div id="header">
-		<div id="container">
-			<nav class="mainmenu">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="journal.html">Journal</a></li>
-					<li><a href="connect.html">Connect</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
+    <nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="connect.html">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
 
 	<div class="container">
 		<div class="col-sm-5">
@@ -38,8 +43,8 @@
 	</div>
 
 	<div class="footer">
-		<div class="container">
-			<div class="one_fourth">
+		<div class="row">
+			<div class="col-sm-3">
 				<h3>Contact Information</h3>
 					<p>
 						<span class="pink">
@@ -66,8 +71,8 @@
 						</br>
 					</p>
 			</div>
-			<div class="one_fourth">
-				<h3>Journal</h3>
+			<div class="col-sm-3">
+				<h3>My Journey</h3>
 					<ul>
 						<li><a href="journal.html#2016aug06" title="First Week">First Week</a></li>
 						<li><a href="#" title="Second Week">Second Week</a></li>
@@ -75,7 +80,7 @@
 						<li><a href="#" title="Come along with me">Come Along with me.</a></li>
 					</ul>
 			</div>
-			<div class="one_fourth">
+			<div class="col-sm-3">
 				<h3>Skill List:</h3>
 					<ul>
 						<li>HTML &amp; CSS</li>
@@ -84,7 +89,7 @@
 						<li>#</li>
 					</ul>
 			</div>
-			<div class="one_fourth">
+			<div class="col-sm-3">
 				<h3>Social</h3>
 					<ul>
 						<li><a href="https://www.instagram.com/mrsmarinacha/" title="Instagram" target="_blank">Instagram</a></li>
@@ -93,6 +98,7 @@
 					</ul>
 			</div>
 			</div>
+		</div>
 	</div>
 	</body>
 </html>
