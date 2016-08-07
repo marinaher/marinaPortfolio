@@ -1,76 +1,24 @@
-/*nav ul{
-	margin-top: 0;
-	margin-bottom: 20px;
-	background-color: #999;
-}*/
+html{
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+body{
+	position: absolute;
+}
 
 nav li{
 	padding: 15px;
 	font-size: 18px;
 }
 
-/*#wrapper{
-	width: 100%;
-	height: auto;
-}
-
-#menu{
-	position: fixed;
-	width: 300px;
-	height: 210px;
-	margin: 0 auto;
-	padding: relative;
-	z-index: 100;
-}
-
-.menu1{
-	display: inline-block;
-	width: 118px;
-	height: 92px;
-	margin: 0;
-	text-indent: -375px;
-}
-
-.menu2{
-	display: inline-block;
-	width: 118px;
-	height: 92px;
-	margin: 0;
-	text-indent: -275px;
-}
-
-.menu3{
-	display: inline-block;
-	width: 118px;
-	height: 92px;
-	margin: 0;
-	text-indent: 275px;
-}
-
-.menu4{
-	display: inline-block;
-	width: 118px;
-	height: 92px;
-	margin: 0;
-	text-indent: 375px;
-}
-
-hr{
-	width:40px;
-	background-color: #F2836B;
-	height: 1px;
-	border:0;
-}
-
-.journalTitle{
-	padding: 0 20%;
-	height: 20px;
+.banner{
 	text-align: center;
 }
 
-.margint10{
-	margin-top: 50px;
-}*/
+#section1{
+	margin-right: 5px; 
+}
 
 .footer{
 	position: fixed;
