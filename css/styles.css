@@ -7,13 +7,24 @@ body{
 	position: absolute;
 }
 
+.navbar{
+	background-color: #2dd2b1;
+}
 nav li{
 	padding: 15px;
 	font-size: 18px;
 }
 
-.banner{
+.banner h1{
 	text-align: center;
+	font-size: 40px;
+	font-family: 'Love Ya Like A Sister', Arial, cursive;
+}
+
+.banner p{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Love Ya Like A Sister', Arial, cursive;
 }
 
 #section1{
@@ -26,5 +37,10 @@ nav li{
 	bottom: 0;
 	height: 240px;
 	width: 100%;
-	background-color: #999;
+	background-color: #2dd2b1;
+}
+
+.footer h3{
+	font-weight: bold;
+	font-family: "Calibi Light", Arial;
 }
